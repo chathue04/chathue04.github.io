@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Base styles for header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 20px;
+}
+
+.intro-section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section h2 {
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.intro-section p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.our-services {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-services h2 {
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.our-services .service {
+  margin-bottom: 20px;
+}
+
+.our-services h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.our-services p {
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+/* Logo styling */
+.logo {
+  height: 100px; /* Adjust the height as needed */
+  width: auto; /* This will maintain the aspect ratio of the logo */
+  display: block;
+  margin: 0 auto; /* Centers the logo */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .logo {
+    height: 60px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin-top: 10px;
+  }
+
+  /* Optional: Hide longer text in the header */
+  .header-long-text {
+    display: none;
+  }
+}
