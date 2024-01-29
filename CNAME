@@ -1,5 +1,1 @@
-$ dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd
-> ;WWW.TWOFRIENDS.LK.                    IN      A
-> WWW.TWOFRIENDS.LK.             3592    IN      CNAME   chathue04.github.io.
-> chathue04.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
-> GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+twofriends.lk
